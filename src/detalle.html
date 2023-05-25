@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script type="module" src="./app.js"></script>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Document</title>
+</head>
+<body style="margin:0; padding:0;">
+    <header>
+        <nav>
+          <div style="width: 100%; display: flex; justify-content: center;">
+            <h1 class="ec-title" style="margin: 1rem 0;">Ecuador</h1>
+            <div style="margin-left:1rem; display: flex; align-items: center; justify-content: center;">
+              <img style="width: 30%;" src="/dist/logo.png" alt="">
+            </div>
+            <h1 class="ec-title" style="margin: 1rem 0;">Galápagos</h1>
+          </div>
+        </nav>
+    </header>
+    <div id="fauna" style="margin-bottom: 90px;">
+        <div>
+            <h2 class="text-center">Fauna de Galápagos</h2>
+            <picture style="display: flex; justify-content: center; width: 100%;">
+                <source media="(max-width:999px)" srcset="./images/web.jpg">
+                <source media="(min-width: 1000px)" srcset="./images/web2.jpg">
+                <img src="./images/web2.jpg" alt="Fauna de Galapagos" style="width: 100%;">
+            </picture>
+            <div class="box">
+                <h3>Aves Galapagos</h3>
+                <div class="d-flex justify-content-around" style="flex-wrap: wrap;" >
+                    <div class="wd-20 text-center">
+                        <img class="detalle-img" src="/dist/halcon.jpeg" alt="">
+                        <p>Halcon Galapagos</p>
+                    </div>
+                    <div class="wd-20 text-center">
+                        <img class="detalle-img" src="/dist/patas-rojas.jpeg" alt="">
+                        <p>Piquero Patas Rojas</p>
+                    </div>
+                    <div class="wd-20 text-center">
+                        <img class="detalle-img" src="/dist/pinzon.jpeg" alt="">
+                        <p>Pinzon de Darwin</p>
+                    </div>
+                    <div class="wd-20 text-center">
+                        <img class="detalle-img" src="/dist/reinita.jpeg" alt="">
+                        <p>Reinita Amarilla</p>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <h3>Aves de Mar Galapagos</h3>
+                <ul style="list-style: none; display: flex; padding: 0; justify-content: space-around; flex-wrap: wrap;">
+                    <li class="wd-20">
+                        <div class="text-center">
+                            <img class="detalle-img"src="/dist/patas-azules.jpeg" alt="">
+                            <p>Piqueros Patas Azules</p>
+                        </div>
+                    </li>
+                    <li class="wd-20">
+                        <div class="text-center">
+                            <img class="detalle-img" src="/dist/pinguino.jpeg" alt="">
+                            <p>Pinguino Galápagos</p>
+                        </div>
+                    </li>
+                    <li class="wd-20">
+                        <div class="text-center">
+                            <img class="detalle-img" src="/dist/fragata.jpeg" alt="">
+                            <p>Fragata</p>
+                        </div>
+                    </li>
+                    <li class="wd-20">
+                        <div class="text-center">
+                            <img class="detalle-img" src="/dist/albatros.jpeg" alt="">
+                            <p>Albatros</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="box">
+                <h3>Mamiferos Galapagos</h3>
+                <div class="d-flex justify-content-around" style="flex-wrap: wrap;">
+                    <div class="wd-20 text-center">
+                        <img class="detalle-img" src="/dist/ballena.webp" alt="">
+                        <p>Ballena</p>
+                    </div>
+                    <div class="wd-20 text-center">
+                        <img class="detalle-img" src="/dist/leonmarino.jpeg" alt="">
+                        <p>Leon Marino</p>
+                    </div>
+                    <div class="wd-20 text-center">
+                        <img class="detalle-img" src="/dist/delfin.jpeg" alt="">
+                        <p>Delfin</p>
+                    </div>
+                    <div class="wd-20 text-center">
+                        <img class="detalle-img" src="/dist/foca.jpeg" alt="">
+                        <p>Foca</p>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <h3>Reptiles Galapagos</h3>
+                <ul style="list-style: none; display: flex; padding: 0; justify-content: space-around; flex-wrap: wrap;">
+                    <li class="wd-20">
+                        <div class="text-center">
+                            <img class="detalle-img" src="./images/tortuga-web.jpg" alt="">
+                            <p>Tortuga Gigante</p>
+                        </div>
+                    </li>
+                    <li class="wd-20">
+                        <div class="text-center">
+                            <img class="detalle-img" src="/dist/iguana.jpeg" alt="">
+                            <p>Iguana de Tierra</p>
+                        </div>
+                    </li>
+                    <li class="wd-20">
+                        <div class="text-center">
+                            <img class="detalle-img" src="/dist/lagartija.jpeg" alt="">
+                            <p>Largatija de Lava</p>
+                        </div>
+                    </li>
+                    <li class="wd-20">
+                        <div class="text-center">
+                            <img class="detalle-img" src="/dist/mar.jpeg" alt="">
+                            <p>Tortuga de Mar</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <footer style="display: flex;">
+        <ul id="menu-items" class="d-flex">
+          <li class="first-menu"><a href="./index.html">Inicio</a></li>
+          <li class="first-menu"><a href="./categorias.html">Categorias</a></li>
+          <div class="first-menu" style="display: flex; align-items: center; justify-content: center;">
+            <img style="width: 20%;" src="/dist/logo.png" alt="">
+          </div>
+          <li class="first-menu"><a href="./presentacion.html">Presentación</a></li>
+          <li class="first-menu"><a href="./enlaces.html">Enlaces</a></li>
+          <li id="second-menu" class="nav-item dropdown" style="display: none;">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Menu
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: black;">
+              <a class="dropdown-item" href="./index.html">Inicio</a>
+              <a class="dropdown-item" href="./categorias.html">Categorias</a>
+              <a class="dropdown-item" href="./presentacion.html">Presentación</a>
+              <a class="dropdown-item" href="./enlaces.html">Enlaces</a>
+            </div>
+          </li>
+        </ul>
+      </footer>
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</html>

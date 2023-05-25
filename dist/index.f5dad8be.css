@@ -1,0 +1,59 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.d-flex {
+  display: flex;
+}
+
+#menu-items {
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+#menu-items li {
+  height: 50px;
+  align-items: center;
+  margin: 0 3rem;
+  list-style: none;
+  display: flex;
+}
+
+#menu-items li a:link {
+  color: #000;
+  text-decoration: none;
+}
+
+#menu-items li a:hover {
+  color: orange;
+}
+
+h1 {
+  justify-content: center;
+  display: flex;
+}
+
+.div-container {
+  height: 350px;
+  justify-content: center;
+  display: flex;
+}
+
+.div-img {
+  width: 20%;
+  background-position-x: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.portada-p {
+  width: 80%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*# sourceMappingURL=index.f5dad8be.css.map */

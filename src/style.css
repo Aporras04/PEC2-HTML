@@ -1,0 +1,218 @@
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* background-color: black; */
+}
+
+.d-flex {
+    display: flex;
+}
+
+header,
+footer {
+    background-color: black;
+    color: white;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+}
+
+.secondary-menu {
+    width: 100%;
+    justify-content: center !important;
+    height: 80px;
+    background-color: black;
+}
+
+#menu-items {
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+#menu-items li {
+    list-style: none;
+    margin: 0 3rem;
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+#menu-items li a:link {
+    color: white;
+    text-decoration: none;
+}
+
+#menu-items li a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+#menu-items li a:hover {
+    color: orange;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.div-container {
+    display: flex;
+    flex-wrap: wrap !important;
+    justify-content: center;
+}
+
+.div-img {
+    width: 20%;
+    min-width: 270px;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: cover;
+    clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+}
+
+.portada-p {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+.div-enlaces {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.div-presentacion {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wd-20 {
+    width: 20%;
+    min-width: 300px;
+}
+
+.wd-25 {
+    width: 25%;
+}
+
+.justify-content-evenly {
+    justify-content: space-evenly;
+}
+
+.justify-content-around {
+    justify-content: space-around;
+}
+
+.categ-img {
+    width: 90%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.box {
+    width: 100%;
+    border: 1px solid grey;
+    margin-bottom: 1rem;
+}
+
+.detalle-img {
+    width: -webkit-fill-available;
+    height: 200px;
+}
+
+.div-flora {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.border-img {
+    border-radius: 5px;
+}
+
+
+
+@media (width < 900px) {
+    .div-container {
+        width: 90%;
+        margin-right: auto;
+        margin-left: auto;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        height: 450px;
+    }
+
+    .div-img {
+        width: 100% !important;
+    }
+}
+
+@media(width < 540px) {
+    .ec-title {
+        display: none !important;
+    }
+}
+
+@media (width< 625) {
+    .first-menu {
+        display: none !important;
+    }
+
+    #second-menu {
+        display: flex !important;
+    }
+}
+
+@media (width < 400) {
+    .enlace-img {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* Animaciones y transiciones */
+
+@keyframes bounceIn {
+    0% {
+        transform: scale(0.1);
+        opacity: 0;
+    }
+
+    60% {
+        transform: scale(1.2);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+#img-svg {
+    animation-duration: 2s;
+    animation-name: bounceIn;
+}
+
+.more:hover {
+    font-size: 1.5rem;
+}
